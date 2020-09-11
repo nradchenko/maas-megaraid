@@ -38,7 +38,7 @@ DOWNLOAD_PATH = os.getenv('DOWNLOAD_PATH')
 
 try:
     assert (len(DOWNLOAD_PATH))
-except AssertionError:
+except (AssertionError, TypeError):
     raise RuntimeError("'DOWNLOAD_PATH' environment variable is empty (this should never happen)")
 
 try:
