@@ -18,7 +18,7 @@ __email__ = "nradchenko@protonmail.com"
 #     - alien
 #   url:
 #     - https://docs.broadcom.com/docs-and-downloads/raid-controllers/raid-controllers-common-files/8-07-14_MegaCLI.zip
-#     - https://github.com/nradchenko/megacli-python/archive/raid10.zip
+#     - https://github.com/m4ce/megacli-python/archive/master.zip
 # for_hardware:
 #   - pci:1000
 # parallel: disabled
